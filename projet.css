@@ -1,0 +1,191 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #eae4e4;
+}
+header{
+	width:100%;
+	height: 200px;
+	background-color: #fff;
+}
+#logo{
+	margin-left: 20px;
+}
+nav{
+	width: 100%;
+	margin-top: 5px;
+}
+#Recherche{
+	float: right;
+	margin-top: 93px;
+	height: 32px;
+	margin-right: 100px;
+	border-radius: 5px;
+}
+#rech{
+	float: right;
+	margin-top: 95px;
+	height: 30px;
+	margin-right: 5px;
+	border-radius: 100%;
+	width: 30px;
+	border-style: none;
+	background-image: url(loupe.jpg);
+}
+.menu{
+	height: 50px; 
+  	list-style: none ;
+  	text-align: center ;
+  	background-color: #e83555;
+}
+.menu a {
+	position: relative;
+	top: 10px;
+	text-decoration: none;
+	width: 50px;
+	height: 10px;
+	margin: 10px;
+	color: white;
+	font-size: 24px;
+	font-family: 'Anton', sans-serif;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.menu li
+{
+	display:inline;
+	position: relative;
+	bottom: 10px;
+}
+.s1{
+	list-style: none;
+	margin-left: 15px;
+	margin-top: 5px;
+	width: 25%;
+	border:double;
+	border-color:#e83555;
+	float: left;
+	margin-bottom: 5px;
+}
+.s1 a{
+	font-family: 'Gamja Flower', cursive;
+	font-size: 25px;
+	text-decoration: none;
+	color: #616362;
+	margin: 30px;
+}
+.s1 ul li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	list-style: none;
+}
+.s1 ul li:hover{
+	background-color: pink;
+}
+.s1 h3{
+	margin-left: 10px;
+	font-family: 'Jua', sans-serif;
+	color: #616362;
+	font-size: 25px;
+}
+section{
+	float: right;
+	border: double;
+	width: 70%;
+	border-color: #e83555;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+section li {
+	list-style: none;	
+	display:inline-block;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+footer{
+	clear: both;
+	width: 100%;
+	height: 150px;
+	display: block;
+	bottom: 0;
+	background-color: #e83555;
+}
+.foot{
+	margin-left: 100px;
+}
+.foot a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: 'Gamja Flower', cursive;
+}	
+.foot h1{
+	font-size: 25px;
+	font-family: 'Anton', sans-serif;
+	color: white;
+}
+.foot p{
+	color: white;
+	font-size: 18px;
+	font-family: 'Gamja Flower', cursive;
+}
+#f1{
+	float: left;
+	list-style: none;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px; 
+}
+#livredt{
+	text-align: center;
+	position: relative;
+}
+#livredt img {
+    display: none;
+    margin: auto;
+    width: 62%;
+}
+.active{
+	
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	display: block !important;
+}
+div#controlers {
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+#next{
+	float: right;
+}
+#prev{
+	float: left;
+}
+.show {
+    display:inline-block !important;
+}
+h4{
+	line-height: 35px;
+}
+h3{line-height: 35px;}
+
+h1{
+	line-height: 35px;
+}
+p{ text-align: justify;
+padding: 10px  }
